@@ -1,0 +1,57 @@
+body {
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.75; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  line-height: 1.25; }
+
+a {
+  color: #007bff; }
+
+blockquote, .pull-quote-right, .pull-quote-left {
+  font-size: 1.15rem;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  position: relative;
+  color: #6c757d;
+  border-top: 3px solid #6c757d;
+  background: #f6f6f6; }
+  blockquote:before, .pull-quote-right:before, .pull-quote-left:before {
+    content: "\201C";
+    font-family: Georgia, serif;
+    font-weight: 400;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    font-size: 5rem;
+    line-height: 1.1; }
+
+pre {
+  background: #f6f6f6;
+  padding: 15px; }
+
+.pull-quote-right {
+  float: right;
+  width: 33%;
+  margin-left: 15px; }
+
+.pull-quote-left {
+  float: left;
+  width: 33%;
+  margin-right: 15px; }
+
+.wp-caption .wp-caption-text {
+  font-size: 90%;
+  margin: .25rem 0 .5rem;
+  color: #6c757d; }

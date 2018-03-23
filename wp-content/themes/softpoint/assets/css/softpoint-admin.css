@@ -1,0 +1,161 @@
+.softpoint-wrap h2, .softpoint-wrap h3 {
+  letter-spacing: .25px;
+}
+
+.softpoint-text-center {
+  text-align: center;
+}
+
+.softpoint-d-iblock {
+  display: inline-block;
+}
+
+.about-wrap .salt-badge {
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+
+.about-wrap .salt-badge img {
+  width: 140px;
+}
+
+.salt-badge a {
+  display: inline-block;
+}
+
+.sp-section-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.sp-section-wrap .sp-col {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.sp-section-wrap .sp-col.sp-col-full {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.sp-section-wrap .sp-col .col-title {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.sp-section-wrap .sp-col h3.col-title {
+  font-size: 1.2em;
+}
+
+.sp-section-wrap .sp-col ul, .sp-section-wrap .sp-col ol {
+  font-size: 14px;
+}
+
+.sp-section-wrap .sp-col ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.sp-section-wrap .sp-col h4 {
+  margin-bottom: 5px;
+}
+
+.sp-col .postbox {
+  min-width: 100px;
+  padding: 15px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.step-completed {
+  color: #46b450;
+  margin-bottom: 5px;
+}
+
+.step-completed .dashicons {
+  vertical-align: middle;
+  font-size: 20px;
+  margin-right: 5px;
+  top: 0;
+}
+
+.step-not-completed {
+  color: #ffb900;
+  margin-bottom: 5px;
+}
+
+.step-not-completed .dashicons {
+  vertical-align: middle;
+  font-size: 20px;
+  margin-right: 5px;
+  top: 0;
+}
+
+.ml-10 {
+  margin-left: 10px !important;
+}
+
+.dash-lg.dashicons {
+  font-size: 32px;
+  height: 32px;
+  width: 32px;
+  margin-bottom: 10px;
+}
+
+.sp-intro-para {
+  margin: 0 15px 10px;
+}
+
+.sp-dismiss-link {
+  font-size: 13px;
+  line-height: 26px;
+  display: none;
+}
+
+.sp-free-pro-table h4 {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sp-free-pro-table p {
+  margin-bottom: 0 !important;
+}
+
+.sp-free-pro-table th, .sp-free-pro-table td {
+  padding: 15px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.sp-free-pro-table th:first-child, .sp-free-pro-table td:first-child {
+  text-align: left;
+}
+
+.widefat.sp-free-pro-table tfoot td {
+  text-align: center;
+}
+
+.ocdi__gl-item[data-name='more premium demos'] .ocdi__gl-item-button {
+  display: none;
+}
+
+.jet-port {
+    max-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}

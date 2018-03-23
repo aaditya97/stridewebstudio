@@ -1,0 +1,56 @@
+/*
+Theme Name: SoftPoint
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+body { direction: rtl; unicode-bidi: embed; text-align: right; }
+
+.sp-header-1 .main-navigation { text-align: left; }
+
+.sp-header-1 .site-branding { text-align: right; }
+
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous { float: right; }
+
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next { float: left; text-align: left; }
+
+.sp-comments-area .comment-author.vcard img { float: right; margin-right: 0; margin-left: 1rem; }
+
+.sp-comments-area .says { display: none; }
+
+body { overflow-x: hidden; }
+
+.content-area blockquote, .content-area .pull-quote-right, .content-area .pull-quote-left { padding-right: 50px; }
+
+.content-area blockquote:before, .content-area .pull-quote-right:before, .content-area .pull-quote-left:before { right: 10px; left: auto; content: "\201D"; }
+
+.sp-sidebar .widget ul { padding-right: 0; }
+
+.sp-sidebar .widget ul .children { padding-right: 15px; }
+
+.sp-goto-top { left: 10px; right: auto; }
+
+.sp-header-3-nav .main-navigation ul { padding-right: 0; }
+
+@media (min-width: 768px) { .text-md-left { text-align: right !important; }
+  .text-md-right { text-align: left !important; } }
+
+.sp-header-1 .main-navigation > div > ul > li:last-child > a { padding-left: 0; padding-right: 20px; }
+
+.sp-topbar-bg .widget_wpcom_social_media_icons_widget ul { padding-right: 0; }
+
+.sp-topbar-bg .widget_wpcom_social_media_icons_widget ul li:last-child { padding-right: 0.5em; }
+
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul { left: 0; }
+
+.sp-header-2-nav .main-navigation li { float: right; }
+
+.sp-header-2-nav .main-navigation li:first-child a { padding-right: 0; padding-left: 20px; }
+
+.sp-header-2-nav .main-navigation ul { padding-right: 0; }
+
+.sp-header-2-nav .main-navigation ul li:hover > ul, .sp-header-2-nav .main-navigation ul li.focus > ul { right: 0; left: auto; }

@@ -1,0 +1,46 @@
+.customize-control {
+    margin-bottom: 15px;
+}
+.part-title {
+    text-align: center;
+}
+.part-info {
+    text-align: center;
+    margin-top: -20px;
+}
+#input_header_layout label {
+    width: 30%;
+    margin-right: 8px;
+}
+hr {
+    margin-top: 20px;
+}
+.pro-features-list {
+    list-style: square;
+    padding-left: 20px;
+    text-align: left;
+    padding-top: 15px;
+}
+.customizer-pro-promo {
+    padding: 20px 15px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.customizer-pro-promo .button {
+    margin-top: 10px;
+}
+#accordion-section-upgrade_section .accordion-section-title::before{
+    content: "\f155";
+    color: #0085ba;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+    float: left;
+    margin-right: 5px;
+}
