@@ -3619,3 +3619,13 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
 	.sydney-hero-area {
 		overflow: hidden;
 	}
+
+
+/*fbdvsv*/
+ .widget-title {
+	font-family: Slab Serif !important;
+}
+
+.hentry .title-post{
+	display:none;
+}
