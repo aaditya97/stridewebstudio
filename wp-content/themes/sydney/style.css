@@ -3626,6 +3626,23 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
 	font-family: Slab Serif !important;
 }
 
-.hentry .title-post{
-	display:none;
+/*testimonial content*/
+.testimonial_content .content {
+	background: transparent !important;
+}
+
+.testimonial_content .content .down-triangle {
+	border-top: 15px solid transparent !important;
+}
+
+.testimonial_designation h2 {
+	color: white !important;
+}
+
+.testimonial_designation p {
+	color: white !important;
+}
+
+.panel-grid-cell .widget-title {
+	color: white !important;
 }
