@@ -3644,7 +3644,7 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
 }
 
 /*box shadow*/
-.sow-icon-fontawesome:hover {
+.sow-icon-container .sow-container-none:hover {
 	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	border-radius: 100%;
 
